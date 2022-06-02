@@ -20,7 +20,7 @@ class DetailVC: UIViewController {
 
         image.image = UIImage(named: trackTitle)
         titleLabel.text = trackTitle
-        titleLabel.numberOfLines = 0
+        titleLabel.numberOfLines = 2
     }
 
 }
